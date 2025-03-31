@@ -91,14 +91,3 @@ def is_palindrome(text):
     return cleaned_text == cleaned_text[::-1]
 
 print(is_palindrome("A man a plan a canal Panama"))  # Should print True
-
-"""
-Additional Tips:
-1. Use descriptive function names that explain what the function does
-2. Keep functions focused on a single task
-3. Document your functions using docstrings
-4. Use type hints to make your code more readable and maintainable
-5. Test your functions with different inputs
-
-Remember: Practice makes perfect! Try creating your own functions and experiment with different concepts.
-""" 
